@@ -29,7 +29,7 @@ for line in Lines:
             strecke += int(data5)
             fluege += 1
 
-print("Gesamtstrecke: " + str(strecke))
+print("Gesamtstrecke: " + str((strecke * 0.83)) + "km")
 
 
 
